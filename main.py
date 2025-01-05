@@ -3,7 +3,6 @@ from constants import *
 
 def main():
     pygame.init()
-    print("Starting asteroids!")
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
 
     while True:
